@@ -120,17 +120,15 @@ background-size: cover;
 color:#fff;
 }
 
-    #home-sec .overlay {
-        background-color:rgba(20, 152, 152, 0.9);
-        min-height:100px;
-    }
-    #home-sec h1 {
-        padding-top:100px;
-        font-weight:900;
-    }
-#home-sec p {
-    padding:10px;
+#home-sec .overlay {
+    background-color:rgba(20, 152, 152, 0.9);
+    min-height:100px;
 }
+#home-sec h1 {
+    padding-top:70px;
+    font-weight:900;
+}
+
 /* =============================================================
    SEARCH DOMAIN SECTION STYLES  -IN HOME / INDEX.HTML 
  ============================================================ */
