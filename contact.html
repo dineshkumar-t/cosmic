@@ -15,6 +15,12 @@
      <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+      #map {
+        height: 200px;
+        width: 100%;
+       }
+    </style>
 </head>
 <body > 
    
@@ -54,11 +60,11 @@
                  <div class="col-md-6" >
 	                    
                      <h2><strong> LOCATION </strong></h2>
-                        <div id="map">My map will go here</div>
+                        <div id="map"></div>
 					              				 
-                    <h4> Palani Road, Pollachi, Coimbatore,Tamil nadu, NH 209, Anupparpalayam, Tamil Nadu 642205.</h4>
-                    <h4><i>Email: </i>copt2017@gmail.com</h4>
-                      <h4><i>Call:</i> +91-8675110866</h4>
+                    <p> Palani Road, Pollachi, Coimbatore,Tamil nadu, NH 209, Anupparpalayam, Tamil Nadu 642205.</p>
+                    <p><i>Email: </i>copt2017@gmail.com</p>
+                    <p><i>Call:</i> +91-8675110866</p>
                 </div>
                 <div class="col-md-6" >
                     
@@ -90,7 +96,9 @@
         COPT is a professionally managed company providing quality support for software and hardware services within the mentioned guidelines. COPT offers a wide range of software and hardware service at Pollachi. <a href="about.html">more..</a>
     </p>
 </div>
+
                 <div class="col-md-4">
+
        <h4>PHYSICAL LOCATION </h4>
                     <h5> Palani Road, Pollachi,</h5>
 					<h5>  Coimbatore,Tamil nadu,</h5>
@@ -139,6 +147,21 @@
     <script src="assets/js/bootstrap.js"></script>
     <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
-    
+     <script>
+      function initMap() {
+        var uluru = {lat: 10.6526545, lng: 77.071656};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAojNH4Teggur0qIRdrnKm1qRDQShtiuFs&callback=initMap">
+    </script>
 </body>
 </html>
