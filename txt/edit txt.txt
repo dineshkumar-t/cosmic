@@ -1,0 +1,45 @@
+<span class="glyphicon-chevron-left"><i class="fa fa-angle-left"></i></span>
+<span class="glyphicon-chevron-right"><i class="fa fa-angle-right"></i></span>
+
+
+</div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+    </div>
+
+
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML marquee Tag</title>
+   </head>
+	
+   <body>
+      <marquee width = "50%">This example will take only 50% width</marquee>
+   </body>
+	
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML marquee Tag</title>
+   </head>
+	
+   <body>
+      <marquee direction = "up">This text will scroll from bottom to up</marquee>
+   </body>
+	
+</html>
+
+
+<div id="map">My map will go here</div>
+
+

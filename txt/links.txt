@@ -1,0 +1,7 @@
+https://www.facebook.com/login/
+https://twitter.com/login?lang=en
+https://www.linkedin.com/uas/login
+https://plus.google.com/110161668219507409668
+https://store.digg.com/sign_in
+https://github.com/login
+https://www.dropbox.com/login
